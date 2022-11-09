@@ -1,0 +1,38 @@
+[michaeloshodi88@instance-1 wordpress]$ history
+    1  sudo dnf update
+    2  sudo dnf install httpd
+    3  sudo systemctl start httpd
+    4  sudo systemctl status httpd
+    5  curl -4 icanhazip.com
+    6  sudo dnf install mysqld
+    7  sudo dnf install @mysql
+    8  sudo systemctl start mysqld
+    9  sudo systemctl enable --now mysqld
+   10  sudo systemctl status mysqld
+   11  sudo mysql_secure_installation
+   12  mysql -u root -p
+   13  sudo dnf module enable php:8.0
+   14  dnf module list php
+   15  sudo systemctl start httpd
+   16  sudo systemctl enable httpd
+   17  sudo cd /tmp && wget http://wordpress.org/latest.tar.gz
+   18  sudo dnf install wget
+   19  sudo cd /tmp && wget http://wordpress.org/latest.tar.gz
+   20  sudo tar -xvzf latest.tar.gz -C /var/www/html
+   21  sudo chown -R apache:apache /var/www/html/wordpress
+   22  sudo chmod -R 775 /var/www/html/wordpress
+   23  sudo vi /etc/httpd/conf/httpd.conf
+   24  sudo systemctl restart httpd
+   25  curl -4 icanhazip.com
+   26  sudo vi /etc/httpd/conf/httpd.conf
+   27  sudo systemctl restart httpd
+   28  sudo dnf install httpd php-gd php-soap php-intl php-mysqlnd php-pdo php-pecl-zip php-fpm php-opcache php-curl php-zip wget
+   29  dnf module list php
+   30  sudo systemctl restart httpd
+   31  curl -4 icanhazip.com
+   32  cd var
+   33  cd /var/www/html/wordpress
+   34  ls
+   35  sudo vi wp-config.php
+   36  history
+[michaeloshodi88@instance-1 wordpress]$ 
